@@ -7,7 +7,8 @@
     "build:frontend": "webpack -w",
     "build:backend": "tsc",
     "test": "jest",
-    "test:silent": "jest --watchAll --silent --noStackTrace"
+    "test:silent": "jest --watchAll --silent --noStackTrace",
+    "test:coverage": "jest --coverage --silent --noStackTrace"
   },
   "keywords": [],
   "author": "Lucas Corrêa <correa.l@icloud.com>",
